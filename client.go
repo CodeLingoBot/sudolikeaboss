@@ -69,7 +69,7 @@ func retrievePasswordFromOnepassword(configuration *onepass.Configuration, done 
 	done <- true
 }
 
-// Run the main sudolikeaboss entry point
+// runSudolikeaboss; Run the main sudolikeaboss entry point
 func runSudolikeaboss() {
 	done := make(chan bool)
 
